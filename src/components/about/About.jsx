@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
                 <strong> contact</strong> me
               </p>
             </div>
-            <Link to={"#contact"}>
+            <Link to="#contact" smooth>
               <button className="about__contact-btn">Contact</button>
             </Link>
           </div>
