@@ -47,6 +47,8 @@ const About = () => {
               <div className="skills__skill">TypeScript</div>
               <div className="skills__skill">Bootstrap</div>
               <div className="skills__skill">Next JS</div>
+              <div className="skills__skill">TailwindCSS</div>
+              <div className="skills__skill">Redux</div>
             </div>
           </div>
         </div>
