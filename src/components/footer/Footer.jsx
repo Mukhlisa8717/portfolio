@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer__row-2">
-            <h2 className="footer__row-title">Ram Maheshwari</h2>
+            <h2 className="footer__row-title">Mukhlisa Saidaminova</h2>
             <p className="footer__row-desc">
               A Frontend focused Web Developer building the Frontend of Websites
               and Web Applications that leads to the success of the overall

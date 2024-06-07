@@ -58,3 +58,15 @@ footer{
     margin-left: 2px;
     color: #eee;
 }
+
+@media (max-width: 590px) {
+    .footer__row-title{
+        font-size: 1.2rem;
+    }
+    .footer__row-desc{
+        font-size: 0.8rem;
+    }
+    .footer__lower{
+        font-size: 0.6rem;
+    }
+}

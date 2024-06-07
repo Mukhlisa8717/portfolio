@@ -96,3 +96,44 @@
     font-weight: 600;
     color: #7c3822;
 }
+
+@media (max-width: 590px) {
+    .about__title{
+        margin-bottom: 4rem;
+    }
+    .about__title-main{
+        font-size: 1.5rem;
+    }
+    .about__title-sub{
+        font-size: 14px;
+    }
+
+    .about__content{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 5rem;
+    }
+
+    .about__content-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__content-title{
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+    .about__content-details-para{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .about__content-skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills{
+        justify-content: center;
+    }
+}

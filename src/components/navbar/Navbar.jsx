@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { HashLink as Link } from "react-router-hash-link";
 import Logo from "../../assets/avatar.webp";
+import { FaBars } from "react-icons/fa";
+import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
+  let [isOpen, setIsOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <header>
       <div className="container">
@@ -32,7 +39,32 @@ const Navbar = () => {
               <button className="navbar__btn">My Resume</button>
             </a>
           </div>
+          <div className="navbar__bar" onClick={toggleMenu}>
+            {isOpen ? (
+              <IoMdClose size={30} color="#7d3923" />
+            ) : (
+              <FaBars size={26} color="#7d3923" />
+            )}
+          </div>
         </nav>
+        {isOpen ? (
+          <div className="navbar__bar-menu">
+            <Link to="#home" smooth>
+              Home
+            </Link>
+            <Link to="#about" smooth>
+              About
+            </Link>
+            <Link to="#projects" smooth>
+              Projects
+            </Link>
+            <Link to="#contact" smooth>
+              Contact
+            </Link>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </header>
   );

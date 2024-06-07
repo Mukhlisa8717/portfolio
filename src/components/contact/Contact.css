@@ -100,3 +100,20 @@
 .contact__btn:hover{
     transform: translateY(-3px);
 }
+
+@media (max-width: 590px) {
+    .contact__title {
+        margin-bottom: 4rem;
+    }
+
+    .contact__title-main {
+        font-size: 1.5rem;
+    }
+    .contact__title-sub {
+        font-size: 14px;
+    }
+    .contact__form-container{
+        padding: 1rem;
+        width: 100%;
+    }
+}
