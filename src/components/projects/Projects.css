@@ -47,10 +47,15 @@
     grid-template-columns: 1.5fr 1fr;
     grid-gap: 5rem;
     margin-bottom: 5.5rem;
+    align-items: center;
 }
 
 .projects__row-img-cont{
     overflow: hidden;
+}
+
+.projects__row-img-cont img{
+    width: 100%;
 }
 
 .projects__row-content{
