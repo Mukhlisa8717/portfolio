@@ -2,7 +2,8 @@ import React from 'react'
 import "./Projects.css"
 import eComm from "../../assets/e-comm.png"
 import aliExpress from "../../assets/aliExpress.png"
-import finsweet from "../../assets/finsweet.png"
+import seedra from "../../assets/seedra.png"
+import nornlight from "../../assets/nornlight.png"
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
@@ -35,30 +36,31 @@ const Projects = () => {
           </div>
           <div className="projects__row">
             <div className="projects__row-img-cont">
-              <img src={aliExpress} alt="e-comm img" />
+              <img src={nornlight} alt="e-comm img" />
             </div>
             <div className="projects__row-content">
-              <h3 className="projects__row-content-title">AliExpress</h3>
+              <h3 className="projects__row-content-title">Nornlight</h3>
               <p className="projects__row-content-desc">
-                AliExpress is a successful project that I created, well designed
-                and using charts, API, React, React-Router-Dom, Redux, CSS.
+                Norтlight is one of my most successful projects. It is made
+                using React. Used: Redux Toolkit, SCSS, Swiper, React Router
+                DOM...
               </p>
-              <Link to={"https://aliexpress-redux.vercel.app/"}>
+              <Link to={"https://nornlight-mukhlisa.vercel.app/"}>
                 <button className="projects__row-content-btn">View</button>
               </Link>
             </div>
           </div>
           <div className="projects__row">
             <div className="projects__row-img-cont">
-              <img src={finsweet} alt="e-comm img" />
+              <img src={seedra} alt="e-comm img" />
             </div>
             <div className="projects__row-content">
-              <h3 className="projects__row-content-title">Finsweet</h3>
+              <h3 className="projects__row-content-title">Seedra</h3>
               <p className="projects__row-content-desc">
-                AliExpress is a simple project I created using API, React,
-                React-Router-Dom, CSS.
+                I created the Seedra project using React. In this project, a
+                telegram bot is connected and an API is connected for GET users.
               </p>
-              <Link to={"https://finsweet.vercel.app/"}>
+              <Link to={"https://seedra-by-ms.vercel.app/"}>
                 <button className="projects__row-content-btn">View</button>
               </Link>
             </div>

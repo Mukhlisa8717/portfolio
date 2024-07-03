@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { HashLink as Link } from "react-router-hash-link";
-import Logo from "../../assets/avatar.webp";
+import Logo from "/Image.jpg";
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 
